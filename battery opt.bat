@@ -45,6 +45,7 @@ adb shell device_config put device_idle pre_idle_factor_long 0
 adb shell device_config put device_idle pre_idle_factor_short 0
 
 adb shell settings put global device_idle_constants inactive_to=15000,sensing_to=0,locating_to=0,location_accuracy=20.0,motion_inactive_to=0,idle_after_inactive_to=0,idle_pending_to=60000,max_idle_pending_to=120000,idle_pending_factor=2.0,idle_to=900000,max_idle_to=86400000,idle_factor=2.0,min_time_to_alarm=600000,max_temp_app_whitelist_duration=10000,mms_temp_app_whitelist_duration=10000,sms_temp_app_whitelist_duration=10000
+https://xdaforums.com/t/forcedoze-via-adb-optimized-doze-settings-no-root-required-via-adb-usb-debugging.3803732/
 adb shell dumpsys deviceidle enable
 adb shell dumpsys deviceidle force-idle
 pause
